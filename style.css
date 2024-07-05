@@ -1,0 +1,170 @@
+html, body{
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+  background-color: gray;
+}
+
+header{
+	width: 100%;
+	height: 40%;
+	min-height: 250px;
+	background-image: url(104629-big-data-voce-conhece-os-4-tipos-de-analise-de-dados-780x450.jpg);
+	background-size: cover;
+  background-position: center;
+	display: flex;
+	flex-direction: column;
+	position: relative;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 30px;
+  font-family: Helvetica, sans-serif;
+
+}
+
+img{
+    display: flex ;
+    align-items: center;
+    width: 300px;
+    height: 200px;
+    left: 3px;
+    top: 0px;
+
+
+}
+
+.container{
+    display: flex;
+    grid-gap: 5px;
+    grid-template-columns: minmax(300px, 200px) repeat(3, 100px);
+    font: bold 16px Arial ;
+    color: white;
+    padding: 8px;
+    justify-content: center;
+  }
+  
+  .container .item{
+    text-align: center;
+    align-items: center;
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid gray;
+  }
+  
+  .item.header{
+    grid-column: 1/3
+
+  }
+
+   .redes-social{
+    display:flex;
+    gap: 5px;
+    justify-content:center;
+    grid-template-columns: minmax(2px, 2px) repeat(4, 2px);
+    grid-column: 1/4;
+   }
+
+   form {
+    margin: auto;
+    width: 800px;
+    height: 60px;
+    padding: 1em;
+    border: 1px solid #ccc;
+    border-radius: 1em;
+  }
+
+  input,
+textarea {
+  font: 1em sans-serif;
+  width: 800px;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  border: 1px solid #999;
+}
+
+textarea {
+    vertical-align: top;
+    height: 5em;
+    resize: vertical;
+  }
+
+ button{
+    margin-inline-start: auto;
+    width: 90px;
+    height: 60px;
+    background-attachment: fixed;
+    background-color: rgb(80, 80, 82);
+    align-items:center;
+    display: flex;
+    text-align: center;
+
+  }
+
+  .icon{
+    display: flex ;
+    align-items: center;
+    width: 2px;
+    height: 2px;
+    left: 3px;
+    top: 0px;
+  }
+
+  .input-option{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .input-option:after {
+    content: "";
+    clear: both;
+  }
+  
+  .radio {
+    border: 0px solid #ccc;
+    box-sizing: 0;
+    float: left;
+    height: 20px;
+    position: relative;
+    width: 100px;
+  }
+  
+  .radio + .radio {
+    margin-left: 0;
+    margin-right: auto;
+  }
+  .radio label {
+    bottom: 1px;
+    display:flex;
+    left: 5px;
+    position: relative;
+    right: 5px;
+    text-indent: 0%;
+    top: 1px;
+    white-space:200px;
+    border-color: #999; 
+  }
+
+  input,.enviar{
+    align-items: center;
+  }
+  
+section{
+    display: flex;
+    grid-gap: 5px;
+    grid-template-columns: minmax(20px, 20px) repeat(4, 50px);
+    font: bold 16px Arial ;
+    color: white;
+    padding: 8px;
+    justify-content: center;
+}
+
+p{
+  font-style: italic;
+  font-weight: bold;
+  font-size: 30px;
+  font-family: arial, sans-serif;
+}
+  
+  
