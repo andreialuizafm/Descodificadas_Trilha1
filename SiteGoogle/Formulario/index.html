@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+
+<form>Nome:<input type="text" name="nome" placeholder="Digite seu Nome aqui"></form>
+    <form>Email:<input type="e-mail" name="email" placeholder="Digite seu e-mail"><input type="submit" name="enviar" value="Enviar">
+    <input type="button" value="Clique Aqui" onclick="msg()"></form>
+  <form>
+  <input type="checkbox" name="veiculo1" value="bicicleta">Eu tenho uma bicicleta <br> 
+   <input type="checkbox" name="veiculo2" value="carro">Eu tenho um carro <br> <input type="checkbox" name="veiculo3" value="moto">Eu tenho uma moto</form>
+  <form>
+    Selecione sua cor preferida: <input type="color" name="favcor" value="#0000FF"></form>
+  <form>
+  Data de nascimento: <input type="date" name="nascimento">
+  </form>
+  <form> Data de nascimento: <input type="datetime-local" name="bdaytime"> </form>
+  <form> E-mail: <input type="email" name="e-mail" placeholder="digite seu e-mail aqui"> </form>
+  <form> <input type="file" name="arquivos"> </form> <br><br><br> <!-- Para permitir seleção de multiplos arquivos:--> <form> <input type="file" name="arquivos" multiple> </form>
+  Oculto: <input type="hidden" id="inputOculto" name="inputOculto" value="meuvalor">
+  <form action="/action_page.php"> First name: <input type="text" name="fname"><br> Last name: <input type="text" name="lname"><br> <input type="image" src="img_submit.gif" alt="Submit" width="48" height="48"> </form>
+  <form> Mêseano:<input type="month" name="mesano"> </form>
+  <form> Quantidade (entre 1 e 5): <input type="number" name="quantidade" min="1" max="5"> </form>
+  <form> <input type="password" name="senha" placeholder="Digite sua Senha"></form>
+  <form><p>Qual sua idade?</p> <input type="radio" name="idade" value="18_22">18 a 22 <br> <input type="radio" name="idade" value="23_30">23 a 30 <br> <input type="radio" name="idade" value="mais31">acima de 31<br> </form>
+  <form> Defina seu nível de satisfação:<br> pouco satisfeito <input type="range" name="satisfacao" min="0" max="10"> muito satisfeito </form>
+  <form> <input type="reset"> </form>
+  <form> Pesquisar: <input type="search" name="q"> </form>
+  
+  <script> function msg() { alert("Você clicou no botão!"); } </script>
+
+
+
+  </html>
